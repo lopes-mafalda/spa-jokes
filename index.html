@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SPA with History API Routing</title>
+        <link rel="stylesheet" href="/css/stylesheet.css" />
+    </head>
+
+    <body>
+        <nav id="anchors">
+            <a id="logo" href="/"><h1>JoKeR</h1></a>
+            <div id="links">
+                <a class="navbar" href="/films">Films</a>
+                <div class="dropdown">
+                    <a class="navbar" href="">Jokes</a>
+                    <div class="dropdown-content">
+                        <a class="drops" href="/jokes">Random</a>
+                        <a class="drops" href="/programming">Programming</a>
+                        <a class="drops" href="/knock">Knock-Knock</a>
+                        <br />
+                        <a class="drops" href="/dad">Dad</a>
+                    </div>
+                </div>
+                <form role="search">
+                    <input
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                    />
+                </form>
+            </div>
+        </nav>
+
+        <h1>h</h1>
+        <div id="container"></div>
+
+        <script type="module" defer src="/js/index.js"></script>
+    </body>
+</html>
